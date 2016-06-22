@@ -1,0 +1,21 @@
+[diff]
+  color = true
+[alias]
+  st = status
+  co = checkout
+  cpk = cherry-pick
+  ds = diff --staged
+  lg = log --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset'
+  lgp = log -p --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset'
+  lgs = log --name-only --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset'
+  mylg = !git lg --author="`git config user.email`"
+  mylgs = !git lgs --author="`git config user.email`"
+  mylgp = !git lgp --author="`git config user.email`"
+[color]
+  ui = true
+[color "diff"]
+  meta = yellow
+[core]
+  editor = vim
+[push]
+  default = tracking
