@@ -8,3 +8,4 @@ autocmd BufNewFile,BufRead *.slim set filetype=slim
 au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 au BufNewFile,BufRead *.axlsx set ft=ruby
 au BufNewFile,BufRead *.json set ft=javascript
+au BufNewFile,BufRead *.md set ft=markdown
