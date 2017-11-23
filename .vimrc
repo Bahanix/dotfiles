@@ -1,5 +1,6 @@
 " https://github.com/tpope/vim-pathogen#installation
-" https://github.com/slim-template/vim-slim
+" git clone git://github.com/slim-template/vim-slim.git ~/.vim/bundle/
+" git clone git://github.com/kopischke/vim-fetch.git ~/.vim/bundle/
 execute pathogen#infect()
 syntax on
 
