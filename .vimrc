@@ -3,6 +3,7 @@
 " git clone git://github.com/slim-template/vim-slim.git
 " git clone git://github.com/kopischke/vim-fetch.git
 " git clone git://github.com/terryma/vim-multiple-cursors.git
+" git clone git://github.com/tpope/vim-abolish.git
 execute pathogen#infect()
 syntax on
 
